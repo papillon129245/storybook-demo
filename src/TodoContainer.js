@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
+import './TodoContainer.css';
+import Todo from './Todo';
 
-function TodoContainer() {
+function TodoContainer({todos}) {
     return (
-        <div>
-            
+        <div className='todoContainer'>
+            {todos.map(todo => (
+                <Todo title={todo} />
+            ))}
         </div>
     )
 }
