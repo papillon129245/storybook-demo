@@ -1,10 +1,10 @@
 import React from 'react';
 import './Todo.css';
 
-function Todo() {
+function Todo({title}) {
     return (
-        <div>
-            <h1>I am a Todo</h1>
+        <div className='todo'>
+            <h1 className='todo__header'>{title}</h1>
         </div>
     )
 }

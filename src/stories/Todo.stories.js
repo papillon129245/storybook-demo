@@ -6,5 +6,5 @@ export default {
   component: Todo,
 };
 
-export const NormalTodo = () => <Todo />;
+export const NormalTodo = () => <Todo title='take the dogs out' />;
 
