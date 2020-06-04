@@ -25,7 +25,7 @@ function App() {
         onClick={addTodo}>Add Todo</button>
 
       </form>
-      <TodoContainer todos={todos} />;
+      <TodoContainer todos={todos} />
     </div>
   );
 }
